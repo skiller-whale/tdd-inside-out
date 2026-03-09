@@ -1,4 +1,4 @@
-import { WordleApp } from "./wordleApp.js";
+import { WordleApp } from "./WordleApp.js";
 
 const app = new WordleApp();
 const outputLines = app.run(process.argv.slice(2));
