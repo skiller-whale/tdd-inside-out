@@ -1,0 +1,6 @@
+services:
+  exercises:
+    profiles: ["exercises"] # exclude from "docker-compose up"
+    build: .
+    volumes:
+      - ./:/swift

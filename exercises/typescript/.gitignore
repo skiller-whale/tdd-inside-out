@@ -1,0 +1,12 @@
+# Bun / Node
+node_modules/
+
+# TypeScript outputs and coverage
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local/editor files
+.DS_Store
+.vscode/
+.idea/
